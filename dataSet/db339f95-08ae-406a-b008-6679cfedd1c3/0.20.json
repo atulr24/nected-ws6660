@@ -1,148 +1,98 @@
 {
  "entityType": "dataSet",
  "category": "dataSet",
+ "live": true,
  "data": {
   "createdAt": "2025-11-19T06:08:10.393Z",
-  "updatedAt": "2025-11-19T10:11:15.063526Z",
+  "updatedAt": "2025-11-19T10:10:59.862Z",
   "isDeleted": false,
-  "publishedAt": "2025-11-19T10:11:15.046Z",
-  "testedAt": "2025-11-19T10:11:09.44Z",
+  "publishedAt": "2025-11-19T10:10:59.849Z",
+  "testedAt": "2025-11-19T10:10:41.847Z",
   "entityId": "db339f95-08ae-406a-b008-6679cfedd1c3",
   "name": "mongodb",
-  "commitId": "commit-5ae64323-f9ef-4d67-a80d-becbf9622f7c",
+  "commitId": "commit-0c0f0bb4-cae5-4174-9066-ec9fc0db49a7",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": true,
+  "isLive": false,
   "commitInfo": {
-   "title": "Forked from 0.20",
-   "description": "v3",
-   "timeStamp": "2025-11-19T10:11:15.043Z"
+   "title": "Forked from 0.10",
+   "description": "v2",
+   "timeStamp": "2025-11-19T10:10:59.846Z"
   },
   "fields": {
-   "wsid": {
-    "ColumnName": "wsid",
-    "DataType": "list",
-    "Order": 2,
-    "ExecutedValue": "c09c394d-827f-4909-ab12-b51be0f65165"
-   },
    "runtime": {
     "ColumnName": "runtime",
     "DataType": "numeric",
-    "Order": 4,
+    "Order": 1,
     "ExecutedValue": 0
-   },
-   "released": {
-    "ColumnName": "released",
-    "DataType": "dateTime",
-    "Order": 12,
-    "ExecutedValue": "2025-04-10T12:34:23Z"
-   },
-   "tomatoes": {
-    "ColumnName": "tomatoes",
-    "DataType": "json",
-    "Order": 19,
-    "ExecutedValue": {
-     "critic": {
-      "meter": 100,
-      "rating": 8.1,
-      "numReviews": 9
-     },
-     "rotten": 0,
-     "viewer": {
-      "meter": 70,
-      "rating": 3.3,
-      "numReviews": 1390
-     },
-     "lastUpdated": "2015-07-22T19:23:50Z",
-     "dvd": "1999-10-12T00:00:00Z",
-     "fresh": 9
-    }
-   },
-   "cast": {
-    "ColumnName": "cast",
-    "DataType": "list",
-    "Order": 13,
-    "ExecutedValue": [
-     "Billie Dove",
-     "Tempe Pigott",
-     "Donald Crisp",
-     "Sam De Grasse"
-    ]
    },
    "countries": {
     "ColumnName": "countries",
     "DataType": "list",
-    "Order": 1,
+    "Order": 21,
     "ExecutedValue": [
      "USA"
     ]
    },
-   "languages": {
-    "ColumnName": "languages",
+   "directors": {
+    "ColumnName": "directors",
     "DataType": "list",
-    "Order": 24,
+    "Order": 5,
     "ExecutedValue": [
-     "English"
+     "Albert Parker"
     ]
    },
-   "num_mflix_comments": {
-    "ColumnName": "num_mflix_comments",
+   "metacritic": {
+    "ColumnName": "metacritic",
     "DataType": "numeric",
-    "Order": 20,
-    "ExecutedValue": 1
+    "Order": 26,
+    "ExecutedValue": 97
    },
-   "phone": {
-    "ColumnName": "phone",
-    "DataType": "numeric",
+   "plot": {
+    "ColumnName": "plot",
+    "DataType": "string",
     "Order": 17,
-    "ExecutedValue": 0
+    "ExecutedValue": "Seeking revenge, an athletic young man joins the pirate band responsible for his father's death."
+   },
+   "type": {
+    "ColumnName": "type",
+    "DataType": "objectid",
+    "Order": 12,
+    "ExecutedValue": "60c72b2f5f1b2c001f91c1ab"
    },
    "title": {
     "ColumnName": "title",
     "DataType": "string",
-    "Order": 14,
+    "Order": 3,
     "ExecutedValue": "The Black Pirate"
-   },
-   "genres": {
-    "ColumnName": "genres",
-    "DataType": "list",
-    "Order": 9,
-    "ExecutedValue": [
-     "Adventure",
-     "Action"
-    ]
-   },
-   "poster": {
-    "ColumnName": "poster",
-    "DataType": "string",
-    "Order": 7,
-    "ExecutedValue": "https://m.media-amazon.com/images/M/MV5BMzU0NDkyMjEzMV5BMl5BanBnXkFtZTgwMTcyMzEyMjE@._V1_SY1000_SX677_AL_.jpg"
    },
    "writers": {
     "ColumnName": "writers",
     "DataType": "list",
-    "Order": 11,
+    "Order": 18,
     "ExecutedValue": [
      "Douglas Fairbanks (story)",
      "Jack Cunningham (adapted by)"
     ]
    },
-   "fullplot": {
-    "ColumnName": "fullplot",
-    "DataType": "string",
-    "Order": 10,
-    "ExecutedValue": "A nobleman vows to avenge the death of his father at the hands of pirates. To this end he infiltrates the pirate band. Acting in character he is instrumental in the capture of a ship, but things are complicated when he finds that there is a young woman on board whom he wishes to protect from the threat of rape."
+   "languages": {
+    "ColumnName": "languages",
+    "DataType": "list",
+    "Order": 25,
+    "ExecutedValue": [
+     "English"
+    ]
    },
    "lastupdated": {
     "ColumnName": "lastupdated",
     "DataType": "dateTime",
-    "Order": 21,
+    "Order": 2,
     "ExecutedValue": "2025-04-07T11:11:22Z"
    },
    "plot_embedding": {
     "ColumnName": "plot_embedding",
     "DataType": "list",
-    "Order": 22,
+    "Order": 7,
     "ExecutedValue": [
      -0.005927917,
      -0.033394486,
@@ -1682,79 +1632,130 @@
      0.004722519
     ]
    },
-   "imdb": {
-    "ColumnName": "imdb",
-    "DataType": "json",
-    "Order": 6,
-    "ExecutedValue": {
-     "rating": 7.2,
-     "id": 16654,
-     "votes": 1146
-    }
-   },
-   "plot": {
-    "ColumnName": "plot",
-    "DataType": "string",
-    "Order": 8,
-    "ExecutedValue": "Seeking revenge, an athletic young man joins the pirate band responsible for his father's death."
+   "num_mflix_comments": {
+    "ColumnName": "num_mflix_comments",
+    "DataType": "numeric",
+    "Order": 22,
+    "ExecutedValue": 1
    },
    "year": {
     "ColumnName": "year",
     "DataType": "numeric",
-    "Order": 5,
+    "Order": 15,
     "ExecutedValue": 1926
    },
-   "rated": {
-    "ColumnName": "rated",
+   "fullplot": {
+    "ColumnName": "fullplot",
     "DataType": "string",
-    "Order": 25,
-    "ExecutedValue": "PASSED"
+    "Order": 11,
+    "ExecutedValue": "A nobleman vows to avenge the death of his father at the hands of pirates. To this end he infiltrates the pirate band. Acting in character he is instrumental in the capture of a ship, but things are complicated when he finds that there is a young woman on board whom he wishes to protect from the threat of rape."
+   },
+   "cast": {
+    "ColumnName": "cast",
+    "DataType": "list",
+    "Order": 6,
+    "ExecutedValue": [
+     "Billie Dove",
+     "Tempe Pigott",
+     "Donald Crisp",
+     "Sam De Grasse"
+    ]
+   },
+   "imdb": {
+    "ColumnName": "imdb",
+    "DataType": "json",
+    "Order": 9,
+    "ExecutedValue": {
+     "id": 16654,
+     "votes": 1146,
+     "rating": 7.2
+    }
+   },
+   "wsid": {
+    "ColumnName": "wsid",
+    "DataType": "list",
+    "Order": 23,
+    "ExecutedValue": "c09c394d-827f-4909-ab12-b51be0f65165"
+   },
+   "phone": {
+    "ColumnName": "phone",
+    "DataType": "numeric",
+    "Order": 10,
+    "ExecutedValue": 0
    },
    "awards": {
     "ColumnName": "awards",
     "DataType": "json",
-    "Order": 3,
+    "Order": 13,
     "ExecutedValue": {
      "text": "1 win.",
      "wins": 1,
      "nominations": 0
     }
    },
-   "directors": {
-    "ColumnName": "directors",
-    "DataType": "list",
-    "Order": 18,
-    "ExecutedValue": [
-     "Albert Parker"
-    ]
+   "poster": {
+    "ColumnName": "poster",
+    "DataType": "string",
+    "Order": 14,
+    "ExecutedValue": "https://m.media-amazon.com/images/M/MV5BMzU0NDkyMjEzMV5BMl5BanBnXkFtZTgwMTcyMzEyMjE@._V1_SY1000_SX677_AL_.jpg"
    },
-   "metacritic": {
-    "ColumnName": "metacritic",
-    "DataType": "numeric",
-    "Order": 26,
-    "ExecutedValue": 97
+   "released": {
+    "ColumnName": "released",
+    "DataType": "dateTime",
+    "Order": 4,
+    "ExecutedValue": "2025-04-10T12:34:23Z"
+   },
+   "tomatoes": {
+    "ColumnName": "tomatoes",
+    "DataType": "json",
+    "Order": 19,
+    "ExecutedValue": {
+     "dvd": "1999-10-12T00:00:00Z",
+     "fresh": 9,
+     "critic": {
+      "meter": 100,
+      "rating": 8.1,
+      "numReviews": 9
+     },
+     "rotten": 0,
+     "viewer": {
+      "meter": 70,
+      "rating": 3.3,
+      "numReviews": 1390
+     },
+     "lastUpdated": "2015-07-22T19:23:50Z"
+    }
    },
    "_id": {
     "ColumnName": "_id",
     "DataType": "objectid",
-    "Order": 15,
+    "Order": 8,
     "ExecutedValue": "573a1391f29313caabcd8268"
    },
    "date": {
     "ColumnName": "date",
     "DataType": "numeric",
-    "Order": 23,
+    "Order": 16,
     "ExecutedValue": 1680973212543
    },
-   "type": {
-    "ColumnName": "type",
-    "DataType": "objectid",
-    "Order": 16,
-    "ExecutedValue": "60c72b2f5f1b2c001f91c1ab"
+   "rated": {
+    "ColumnName": "rated",
+    "DataType": "string",
+    "Order": 24,
+    "ExecutedValue": "PASSED"
+   },
+   "genres": {
+    "ColumnName": "genres",
+    "DataType": "list",
+    "Order": 20,
+    "ExecutedValue": [
+     "Adventure",
+     "Action"
+    ]
    }
   },
   "query": "db.embedded_movies.find({\"num_mflix_comments\":1})",
-  "version": "0.30",
+  "version": "0.20",
   "connectorId": "244e2800-81be-4ee5-8703-2e0e7029b9fc",
   "isDemo": false,
   "settings": {
@@ -1765,5 +1766,20 @@
    "timezone": "Asia/Calcutta",
    "dateFormat": "in"
   }
- }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-0c0f0bb4-cae5-4174-9066-ec9fc0db49a7",
+   "entityType": "dataSet",
+   "entityId": "db339f95-08ae-406a-b008-6679cfedd1c3",
+   "entityVersion": "0.20",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "244e2800-81be-4ee5-8703-2e0e7029b9fc",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-19T10:08:59.881474Z",
+   "updatedAt": "2025-11-19T10:10:59.857325Z"
+  }
+ ]
 }
