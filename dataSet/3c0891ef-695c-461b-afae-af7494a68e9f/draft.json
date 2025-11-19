@@ -1,0 +1,47 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2025-11-19T06:15:07.32Z",
+  "updatedAt": "2025-11-19T06:15:07.32Z",
+  "isDeleted": false,
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "testedAt": "0001-01-01T00:00:00Z",
+  "entityId": "3c0891ef-695c-461b-afae-af7494a68e9f",
+  "name": "postgresdb",
+  "commitId": "commit-0d46037c-f871-4c9b-bfd9-7e55be00a788",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-19 06:15:07",
+   "timeStamp": "2025-11-19T06:15:07.319180644Z"
+  },
+  "version": "draft",
+  "connectorId": "71fe0cf6-8399-411f-9110-118a8579610c",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-0d46037c-f871-4c9b-bfd9-7e55be00a788",
+   "entityType": "dataSet",
+   "entityId": "3c0891ef-695c-461b-afae-af7494a68e9f",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "71fe0cf6-8399-411f-9110-118a8579610c",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-19T06:15:07.324742Z",
+   "updatedAt": "2025-11-19T06:15:07.324742Z"
+  }
+ ]
+}
