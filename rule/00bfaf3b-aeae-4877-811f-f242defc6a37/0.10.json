@@ -1,0 +1,175 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "live": true,
+ "data": {
+  "createdAt": "2025-11-19T06:07:36.557Z",
+  "updatedAt": "2025-11-19T06:21:21.003Z",
+  "isDeleted": false,
+  "testedAt": "2025-11-19T06:21:15.126Z",
+  "publishedAt": "2025-11-19T06:21:20.995Z",
+  "entityId": "00bfaf3b-aeae-4877-811f-f242defc6a37",
+  "name": "Dt1Master",
+  "commitId": "commit-6b8680fe-d1b8-49eb-bf31-a3711941790c",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Created at 2025-11-19 06:07:36",
+   "description": "v1",
+   "timeStamp": "2025-11-19T06:21:20.993Z"
+  },
+  "customInput": {
+   "name": {
+    "name": "name",
+    "dataType": "string",
+    "attribute": "name",
+    "sourceType": "dataSet",
+    "executedValue": "email@email.com"
+   }
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "rule_03": {
+     "type": "simpleCondition"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03"
+  },
+  "action": {
+   "then": {
+    "actionNode": {
+     "actionData_action_1": {
+      "name": "action_1",
+      "connectorId": "c0b27dfb-6a85-4349-9a4b-8bc64bc9e74f",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "path": "/posts/2",
+       "query": "",
+       "method": "GET",
+       "headers": [],
+       "settings": {
+        "cache": {
+         "enabled": false,
+         "duration": {
+          "unit": "d",
+          "value": 0
+         },
+         "cacheKeys": ""
+        }
+       },
+       "queryParams": []
+      }
+     }
+    },
+    "firstActionNode": "actionData_action_1"
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rhs_szfj3A": {
+     "sourceType": "dataSet",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    },
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rhs_szfj3A"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "sourceType": "customInput",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "siblingIndex": 1
+    }
+   }
+  },
+  "firstCustomInput": "name",
+  "description": "",
+  "policy": "first",
+  "version": "0.10",
+  "type": "decisionTable",
+  "dataSetId": "96ae6dae-5651-49f0-83fb-c7d4aeb6ce87",
+  "settings": {
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-6b8680fe-d1b8-49eb-bf31-a3711941790c",
+   "entityType": "rule",
+   "entityId": "00bfaf3b-aeae-4877-811f-f242defc6a37",
+   "entityVersion": "0.10",
+   "entityNodeId": "then-actionData_action_1",
+   "dependencyType": "connector",
+   "dependencyId": "c0b27dfb-6a85-4349-9a4b-8bc64bc9e74f",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-19T06:10:04.77686Z",
+   "updatedAt": "2025-11-19T06:21:21.000705Z"
+  },
+  {
+   "entityCommitId": "commit-6b8680fe-d1b8-49eb-bf31-a3711941790c",
+   "entityType": "rule",
+   "entityId": "00bfaf3b-aeae-4877-811f-f242defc6a37",
+   "entityVersion": "0.10",
+   "entityNodeId": "dataSet",
+   "dependencyType": "dataSet",
+   "dependencyId": "96ae6dae-5651-49f0-83fb-c7d4aeb6ce87",
+   "dependencyVersion": "0.10",
+   "isDeleted": false,
+   "createdAt": "2025-11-19T06:09:49.471395Z",
+   "updatedAt": "2025-11-19T06:21:21.000705Z"
+  }
+ ]
+}
